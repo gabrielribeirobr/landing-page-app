@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    height: 82px;
+    background: red;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    padding: 0 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;    
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    gap: 23.18px;
+    
+}
+
+#btn-instagram, #btn-facebook{
+    font-size: 21px;
+    
+}
+
+#btn-menu{
+    display: flex;
+    
+}
+
+.main-logo{
+    display: flex;
+    font-weight: bold;
+    font-size: 49px;
+
+}
