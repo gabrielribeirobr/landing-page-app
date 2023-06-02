@@ -50,6 +50,7 @@ nav {
   padding: 60px 0;
   background-color: var(--color-secondary);
   width: 100%;
+  height: 903px;
 }
 
 .hero__wrapper {
@@ -75,7 +76,7 @@ nav {
   color: var(--color-primary);
 }
 
-.button {
+.btn-primary {
   display: inline-block;
   padding: 12px 54px;
   background-color: var(--color-primary);
@@ -83,4 +84,48 @@ nav {
   color: var(--color-secondary);
   font-weight: bold;
   text-decoration: none;
+}
+
+.btn-secundary {
+  display: inline-block;
+  padding: 12px 54px;
+  background-color: none;
+  border: #ffffff solid 1px;
+  border-radius: 10px;
+  color: var(--color-white);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.eclipse {
+  position: absolute;
+  width: 317px;
+  height: 317px;
+  left: 46px;
+  top: 460px;
+  background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #FF29C3 100%);
+  filter: blur(100px);
+}
+
+.retangule {
+  position: absolute;
+  width: 152.4px;
+  height: 215.65px;
+  left: 128.3px;
+  top: 607.07px;
+  background: linear-gradient(180deg, rgba(24, 75, 255, 0) 0%, #174AFF 100%);
+  filter: blur(100px);
+}
+
+.img-businessman {
+  position: relative;
+  width: 600px;
+  height: 560px;
+  left: -74px;
+}
+
+.img-container {
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
 }
