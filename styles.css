@@ -47,6 +47,11 @@ nav {
 }
 
 .hero {
+  width: 100%;
+  height: 1048px;
+}
+
+.hero-body {
   padding: 60px 0;
   background-color: var(--color-secondary);
   width: 100%;
@@ -97,7 +102,7 @@ nav {
   text-decoration: none;
 }
 
-.eclipse {
+/*.eclipse {
   position: absolute;
   width: 317px;
   height: 317px;
@@ -116,7 +121,7 @@ nav {
   background: linear-gradient(180deg, rgba(24, 75, 255, 0) 0%, #174AFF 100%);
   filter: blur(100px);
 }
-
+*/
 .img-businessman {
   position: relative;
   width: 600px;
@@ -128,4 +133,20 @@ nav {
   display: flex;
   width: 100%;
   overflow-x: hidden;
+}
+
+@media (min-width: 993px) {
+
+  .hero {
+    height: 560px;
+  }
+
+  .hero-body {
+    height: 460px;
+  }
+
+  .btn-menu {
+    display: none;
+  }
+
 }
