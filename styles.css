@@ -135,6 +135,17 @@ nav {
   overflow-x: hidden;
 }
 
+.beneftis {
+  width: 100%;
+  height: 578px;
+  background-color: red;
+  /* temporario */
+}
+
+.beneftis-container {
+  display: flex;
+}
+
 @media (min-width: 993px) {
 
   .hero {
