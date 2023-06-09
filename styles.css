@@ -81,7 +81,7 @@ nav {
   color: var(--color-primary);
 }
 
-.btn-primary {
+.button {
   display: inline-block;
   padding: 12px 54px;
   background-color: var(--color-primary);
@@ -91,15 +91,10 @@ nav {
   text-decoration: none;
 }
 
-.btn-secundary {
-  display: inline-block;
-  padding: 12px 54px;
-  background-color: none;
-  border: #ffffff solid 1px;
-  border-radius: 10px;
+.button--outline {
+  background-color: transparent;
+  border: solid 2px #ffffff;
   color: var(--color-white);
-  font-weight: bold;
-  text-decoration: none;
 }
 
 .img-businessman {
@@ -119,15 +114,9 @@ nav {
   width: 100%;
   height: 578px;
   background-color: var(--color-white)
-    /* temporario */
 }
 
-.beneftis-container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+
 
 .beneftis__title {
   color: var(--color-secondary);
@@ -141,41 +130,29 @@ nav {
 }
 
 /* beggins carousel */
-.carousel-item-next,
-.carousel-item-prev,
-.carousel-item.active {
-  display: flex;
+
+.carousel {
+  padding: 40px 40px;
+  display: -webkit-inline-box;
+  width: 100%;
+  overflow: auto;
+  gap: 25px;
 }
 
-.carousel-item {
-  justify-content: center;
-}
-
-.beneftis-01,
-.beneftis-02,
-.beneftis-03 {
-  display: flex;
-  width: 288px;
-  height: 376px;
-  /* background-color: blue; */
-  align-items: flex-end;
-  padding-bottom: 30px;
-}
-
-.img-target {
-  position: relative;
-  top: -64px;
+.icon-card {
   width: 172px;
   height: 178px;
 }
 
-.beneftis-box {
-  height: 306px;
+.beneftis__card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
   width: 288px;
   border-radius: 20px;
   background-color: var(--color-white);
   box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.1);
-
 }
 
 /* carousel end */
@@ -192,6 +169,15 @@ nav {
 
   .btn-menu {
     display: none;
+  }
+
+}
+
+@media (min-width: 994px) {
+
+  .carousel {
+    display: flex;
+    justify-content: center;
   }
 
 }
