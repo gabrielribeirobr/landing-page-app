@@ -15,15 +15,30 @@ body {
   background: var(--color-white);
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 0px 30px;
 }
 
-nav {
+.nav-bar {
   padding: 0 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+}
+
+.menu-h {
+  display: flex;
+  padding-top: 15px;
+  gap: 70px;
+}
+
+.menu-h a {
+  text-decoration: none;
+  list-style: none;
+  color: #363636;
+  font-size: 18px;
+
 }
 
 .social-icons {
@@ -106,6 +121,7 @@ nav {
   width: 600px;
   height: 560px;
   left: -74px;
+  top: -74px;
 }
 
 .img-container {
@@ -183,6 +199,11 @@ nav {
 .about-us__subtittle strong {
   font-weight: bold;
   color: #7000FF;
+}
+
+.img-businessman__aboutus {
+  position: relative;
+  top: -74px
 }
 
 @media (min-width: 994px) {
