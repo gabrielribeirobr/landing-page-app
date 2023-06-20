@@ -28,7 +28,7 @@ body {
 }
 
 .menu-h {
-  display: flex;
+  display: none;
   padding-top: 15px;
   gap: 70px;
 }
@@ -202,8 +202,15 @@ body {
 }
 
 .img-businessman__aboutus {
+  margin-top: 30px;
   position: relative;
   top: -74px
+}
+
+.contact-us {
+  background-color: #F8F6FA;
+  width: 100%;
+  height: 600px;
 }
 
 @media (min-width: 994px) {
@@ -220,6 +227,9 @@ body {
     display: none;
   }
 
+  .menu-h {
+    display: flex;
+  }
 }
 
 @media (min-width: 994px) {
