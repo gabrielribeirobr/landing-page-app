@@ -298,14 +298,11 @@ form div.name-form input {
 
 }
 
-.row {
-  flex-direction: column;
-  align-items: center;
-}
+
 
 footer {
   background-color: var(--color-secondary);
-  height: 500px;
+  height: auto;
 }
 
 .footer-info {
