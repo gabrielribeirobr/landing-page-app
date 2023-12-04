@@ -311,26 +311,24 @@ footer {
   flex-direction: column;
 }
 
-.text-footer {
+.menu-footer {
   display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  color: var(--color-white);
-  padding: 10px 0px;
-
+  flex-direction: column;
+  padding-top: 15px;
+  gap: 10px;
 }
 
-.link {
+.menu-footer a {
   text-decoration: none;
+  list-style: none;
+  color: var(--color-white);
+  font-size: 18px;
+
+}
+
+.text-footer {
   color: var(--color-white);
 }
-
-.icons-footer {
-  display: flex;
-  gap: 40px;
-
-}
-
 
 .btn-social-media__footer {
   font-size: 20px;
@@ -356,6 +354,10 @@ footer {
   border-radius: 0px 5px 5px 0px;
   height: 45px;
   width: 100px;
+}
+
+input[type="email"] {
+  color: var(--color-white);
 }
 
 .news-nice input::placeholder {
@@ -390,6 +392,12 @@ footer .main-logo {
 
   hr {
     display: block;
+  }
+
+  .menu-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
   }
 
   .news-nice {
